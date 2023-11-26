@@ -446,7 +446,8 @@ section {
   font-size: 1.3rem;
 }
 
-.timeline .timeline-item .tl-duration {
+.timeline .timeline-item .tl-duration,
+.portfolios .portfolio-item .hover-items .period {
   padding: 0.2rem 0.6rem;
   background-color: var(--color-grey-5);
   border-radius: 15px;
