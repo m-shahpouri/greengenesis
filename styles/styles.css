@@ -757,6 +757,11 @@ section {
   margin: 1.5rem 0;
 }
 
+.flexbox{
+  display: flex;
+  justify-content: right;
+}
+
 .contact-content-con .right-contact .input-control input,
 .contact-content-con .right-contact .input-control textarea {
   border-radius: 30px;
@@ -770,6 +775,24 @@ section {
   width: 100%;
   color: var(--color-white);
   resize: none;
+}
+
+.contact-content-con .right-contact .input-control button {
+  justify-self: right;
+  padding: 2rem;
+  border-radius: 30px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.8rem 1.1rem;
+  outline: none;
+  border: none;
+  background-color: var(--color-grey-5);
+  /* width: 100%; */
+  color: var(--color-white);
+  resize: none;
+  cursor: pointer;
+  /* justify-self: right; */
 }
 
 .contact-content-con .right-contact .i-c-2 {
