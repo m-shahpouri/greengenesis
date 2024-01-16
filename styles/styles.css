@@ -24,7 +24,10 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  
+  --color-secondary: #1789B8;
+  /* --color-secondary: #F56692; */
+  
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -72,6 +75,10 @@ section {
   left: 0;
   top: 0;
   padding: 3rem 18rem;
+}
+
+.bold{
+  font-weight: 900;
 }
 
 .container {
@@ -213,12 +220,23 @@ section {
 
 .header-content .bottom-header {
   display: flex;
+  /* flex-direction: row; */
   flex-direction: column;
   justify-content: center;
   padding-right: 18rem;
   text-align: center;
 }
 
+.header-content .bottom-header img{
+  /* margin-left: 100px; */
+  margin-top: -100px;
+  margin-bottom: -100px;
+  width: 400px;
+  height: 400px;
+  
+  /* border: #000000 solid 10px; */
+
+}
 .header-content .bottom-header .name {
   font-size: 3rem;
 }
