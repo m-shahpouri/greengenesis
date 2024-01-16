@@ -33,7 +33,8 @@
   
   --color-black: #000;
   --color-grey0: #f8f8f8;
-  --color-grey-1: #6c7983;
+  --color-grey-1: #000000;
+  /* --color-grey-1: #6c7983; */
   --color-grey-2: #6c7983;
   --color-grey-3: #6c7983;
   --color-grey-4: #454e56;
@@ -252,6 +253,7 @@ section {
   /* margin: 1.5rem 0; */
   line-height: 2rem;
   text-align: justify !important;
+  color: var(--color-white);
 }
 
 /*About*/
